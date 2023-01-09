@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33571" started-at="2023-01-07T12:24:18Z" finished-at="2023-01-07T12:24:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33571" started-at="2023-01-07T12:24:18Z" finished-at="2023-01-07T12:24:52Z">
+      <class name="com.automation.nopecommerce.tests.ProductDetailsTest">
+        <test-method status="PASS" signature="addProductToshoppingCart()[pri:0, instance:com.automation.nopecommerce.tests.ProductDetailsTest@5cb9f472]" name="addProductToshoppingCart" duration-ms="1707" started-at="2023-01-07T14:24:35Z" finished-at="2023-01-07T14:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToshoppingCart -->
+      </class> <!-- com.automation.nopecommerce.tests.ProductDetailsTest -->
+      <class name="com.automation.nopecommerce.tests.ShoppingCartTest">
+        <test-method status="PASS" signature="goToCheckoutProcess()[pri:0, instance:com.automation.nopecommerce.tests.ShoppingCartTest@cb644e]" name="goToCheckoutProcess" duration-ms="7268" started-at="2023-01-07T14:24:37Z" finished-at="2023-01-07T14:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCheckoutProcess -->
+      </class> <!-- com.automation.nopecommerce.tests.ShoppingCartTest -->
+      <class name="com.automation.nopecommerce.tests.RegistrationTest">
+        <test-method status="PASS" signature="userRegisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.nopecommerce.tests.RegistrationTest@59494225]" name="userRegisterSuccessfully" duration-ms="11905" started-at="2023-01-07T14:24:19Z" data-provider="testData" finished-at="2023-01-07T14:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nourhan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abdo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nourhan_mohamed2@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterSuccessfully -->
+      </class> <!-- com.automation.nopecommerce.tests.RegistrationTest -->
+      <class name="com.automation.nopecommerce.tests.CheckoutForProductTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.automation.nopecommerce.tests.CheckoutForProductTest@7085bdee]" name="startDriver" is-config="true" duration-ms="5830" started-at="2023-01-07T14:24:12Z" finished-at="2023-01-07T14:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCheckoutForOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.nopecommerce.tests.CheckoutForProductTest@7085bdee]" name="userCheckoutForOrder" duration-ms="7842" started-at="2023-01-07T14:24:44Z" data-provider="testData" finished-at="2023-01-07T14:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Giza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24 El Nil El Abiad St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11511.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.3586244E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCheckoutForOrder -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:com.automation.nopecommerce.tests.CheckoutForProductTest@7085bdee]" name="stopDriver" is-config="true" duration-ms="633" started-at="2023-01-07T14:24:52Z" finished-at="2023-01-07T14:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- com.automation.nopecommerce.tests.CheckoutForProductTest -->
+      <class name="com.automation.nopecommerce.tests.SearchForProductTest">
+        <test-method status="PASS" signature="usersearcForProduct(java.lang.String)[pri:0, instance:com.automation.nopecommerce.tests.SearchForProductTest@6e1567f1]" name="usersearcForProduct" duration-ms="4001" started-at="2023-01-07T14:24:31Z" data-provider="testData" finished-at="2023-01-07T14:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows 8 Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearcForProduct -->
+      </class> <!-- com.automation.nopecommerce.tests.SearchForProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

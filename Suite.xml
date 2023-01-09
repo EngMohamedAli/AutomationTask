@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="com.automation.nopecommerce.tests.RegistrationTest" /> 
+			<class name="com.automation.nopecommerce.tests.SearchForProductTest" />
+			<class name="com.automation.nopecommerce.tests.ProductDetailsTest" />
+			<class name="com.automation.nopecommerce.tests.ShoppingCartTest" />
+		    <class name="com.automation.nopecommerce.tests.CheckoutForProductTest" /> 
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,9 @@
+com\automation\nopecommerce\pages\PageBase.class
+com\automation\nopecommerce\pages\ProductDetailsPage.class
+com\automation\nopecommerce\pages\ShoppingCartPage.class
+com\automation\nopecommerce\pages\ThankYouPage.class
+com\automation\nopecommerce\pages\CheckoutPage.class
+com\automation\nopecommerce\pages\HomePage.class
+com\automation\nopecommerce\pages\SearchPage.class
+com\automation\nopecommerce\pages\LoginPage.class
+com\automation\nopecommerce\pages\RegistrationPage.class

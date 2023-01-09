@@ -1,0 +1,8 @@
+com\automation\nopecommerce\tests\TestBase.class
+com\automation\nopecommerce\tests\CheckoutForProductTest.class
+com\automation\nopecommerce\tests\RegistrationTest.class
+TestData\ExcelReader.class
+com\automation\nopecommerce\tests\LoginTest.class
+com\automation\nopecommerce\tests\SearchForProductTest.class
+com\automation\nopecommerce\tests\ShoppingCartTest.class
+com\automation\nopecommerce\tests\ProductDetailsTest.class

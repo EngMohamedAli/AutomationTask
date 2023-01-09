@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automation.nopecommerce.tests.CheckoutForProductTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.automation.nopecommerce.tests.CheckoutForProductTest -->
+      <class name="com.automation.nopecommerce.tests.RegistrationTest">
+        <methods>
+          <include name="userRegisterSuccessfully" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.nopecommerce.tests.RegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
